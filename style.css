@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header{
+    background-image: url("image1.jpg");
+    background-size:cover;
+    height:auto;
+    width:100%;
+      
+}
+.header img{
+    width:200px;
+    height:320px;
+    border-radius:100px;
+    margin-left:470px;
+}
+#heading1{
+    color:white;
+    font-size:150px;
+    text-align: center;
+    padding-top:10px; 
+}
+#heading2{
+    color:white;
+    font-size:50px;
+    text-align: center;
+    padding-top:10px; 
+    padding-bottom:100px;
+}
+#navlist{
+    float: top right;
+    display:flex;
+    
+}
+ul{
+    
+    margin-top:15px;
+    list-style:none;
+    flex-direction:row-reverse;
+    margin-right:20px;
+}
+ul li{
+    
+    padding-top:20px;
+   
+}
+ul li a{
+    text-decoration:none;
+    padding:5px 10px;
+    border:1px solid transparent;
+    color:white;
+    font-weight:bold;
+    margin-left:5px;
+    transition:0.8s ease;
+    
+}
+ul li a:hover{
+    background-color:white;
+    color:black;
+}
+#overallinfo{
+    background-image:url("image3.jpg");
+    background-size:cover;
+    height:auto;
+    width:100%;
+}
+#about,#education,#contact,#programminglanguages,#languages,#skills{
+    font-size:80px;
+    text-align:center;
+    padding:10px;
+    color:white;
+}
+.infos p{
+    border:5px solid white;
+    height:500px;
+    width:500px;
+    margin-left:390px;
+    font-size:30px;
+    color:white;
+    padding:8px;
+    margin:auto;
+    max-width:100%;
+    }
+.infos p:hover{
+   color:red;
+}
+#contacting{
+    margin:40px 300px;
+}
+.ul li a img{
+    display:inline;
+}
+div.sticky{
+    position: fixed;
+    top:0;
+    right:0;
+}
+#contacting{
+    margin:auto;
+    max-width:100%;
+}
